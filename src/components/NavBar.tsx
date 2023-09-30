@@ -26,7 +26,7 @@ const NavBar = () => {
               <Nav.Item>Propertis</Nav.Item>
             </Link>
 
-            <Link to="##">
+            <Link to="/contact">
               <Nav.Item>Contact</Nav.Item>
             </Link>
 

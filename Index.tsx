@@ -3,6 +3,7 @@ import {createBrowserRouter,RouterProvider,Route,createRoutesFromElements,} from
 import Rootcomponents from './src/components/Rootcomponents'
 import Home from './src/page/Home'
 import About from './src/page/About';
+import Contact from './src/page/Contact';
 
 const Index = () => {
   const router = createBrowserRouter(
@@ -10,6 +11,7 @@ const Index = () => {
       <Route path="/" element={<Rootcomponents/>}>
         <Route index element={<Home/>}></Route>
         <Route path="/about" element={<About/>}></Route>
+        <Route path="/contact" element={<Contact/>}></Route>
       </Route>
     )
   )
